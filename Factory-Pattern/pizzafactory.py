@@ -1,6 +1,7 @@
 from pizzaconcrete import CheesePizza, VeggiePizza, PepproniPizza
+from pizzastore import PizzaStore
 
-class PizzaFactory:
+class NYPizzaFactory(PizzaStore):
     def createPizza(self, type: str):
         pizza = None
         if type == 'Cheese':

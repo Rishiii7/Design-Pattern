@@ -1,8 +1,7 @@
-from pizzastore import PizzaStore
-from pizzafactory import PizzaFactory
+from pizzafactory import NYPizzaFactory
 
 def main():
-    pizza1 = PizzaStore(PizzaFactory())
+    pizza1 = NYPizzaFactory()
     pizza1.orderPizza('Veggie')
     
 

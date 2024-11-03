@@ -1,13 +1,13 @@
 class Pizza:
 
     def prepare(self):
-         print('Preparing pizza dough ...')
+        pass
 
     def bake(self):
-         print('Baking the pizza...')
+        pass
     
     def cut(self):
-         print('Slicing up the pizza ....')
+        pass
     
     def box(self):
          print('Preparing boxes ....')
