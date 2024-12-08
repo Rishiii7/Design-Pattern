@@ -21,4 +21,4 @@ while t > 0 :
 
     output = B(s, n)
     print('output: ', output)
- 
+    t -= 1
